@@ -1,0 +1,8 @@
+envs {
+  envsCloud = [
+    {
+      uuid = "0a26431d-6e6e-4ffa-85df-2b122bef50ac"
+      folderName = "gwr-cpq-dev"
+    },
+  ]
+}
