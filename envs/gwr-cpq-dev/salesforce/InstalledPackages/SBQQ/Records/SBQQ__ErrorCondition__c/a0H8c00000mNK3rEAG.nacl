@@ -1,0 +1,10 @@
+salesforce.SBQQ__ErrorCondition__c a0H8c00000mNK3rEAG {
+  SBQQ__FilterType__c = "Value"
+  SBQQ__FilterValue__c = "start with"
+  SBQQ__Index__c = 2
+  SBQQ__Operator__c = "starts with"
+  SBQQ__Rule__c = salesforce.SBQQ__ProductRule__c.instance.a0j8c00001Hh2EeAAJ
+  SBQQ__TestedField__c = "OpportunityType__c"
+  SBQQ__TestedObject__c = "Quote"
+  _alias = "GWR August Product Rule 000007"
+}

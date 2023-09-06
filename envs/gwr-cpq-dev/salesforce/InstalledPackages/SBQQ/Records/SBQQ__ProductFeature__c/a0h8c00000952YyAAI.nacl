@@ -1,0 +1,8 @@
+salesforce.SBQQ__ProductFeature__c a0h8c00000952YyAAI {
+  SBQQ__ConfiguredSKU__c = salesforce.Product2.instance.01t8c00000MGNmHAAX
+  SBQQ__MaxOptionCount__c = 1
+  SBQQ__MinOptionCount__c = 1
+  SBQQ__Number__c = 20
+  Name = "Memory"
+  _alias = "DESKTOPCOMPUTER Hardware Desktop Computer Memory"
+}

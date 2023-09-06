@@ -1,4 +1,10 @@
 envs {
   envs = [
+    {
+      name = "gwr-cpq-dev"
+      accountToServiceName = {
+        salesforce = "salesforce"
+      }
+    },
   ]
 }
