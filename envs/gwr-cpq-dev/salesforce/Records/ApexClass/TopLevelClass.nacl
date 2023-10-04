@@ -11,4 +11,5 @@ salesforce.ApexClass TopLevelClass {
       reference = salesforce.ApexClass.instance.RightClass
     },
   ]
+  _alias = "TopLevelClass"
 }

@@ -1,7 +1,0 @@
-salesforce.SBQQ__ProductAction__c a0e8c00000DeuOJAAZ {
-  SBQQ__Product__c = salesforce.Product2.instance.01t8c00000LLenfAAD
-  SBQQ__Required__c = false
-  SBQQ__Rule__c = salesforce.SBQQ__ProductRule__c.instance.a0j8c00001GANOAAA5
-  SBQQ__Type__c = "Add"
-  _alias = "GWR P Rule1 PA-0000000"
-}

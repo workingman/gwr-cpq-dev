@@ -3,4 +3,5 @@ salesforce.ApexClass TriggerHandlerBase {
   status = "Active"
   fullName = "TriggerHandlerBase"
   content = file("salesforce/Records/ApexClass/TriggerHandlerBase.cls")
+  _alias = "TriggerHandlerBase"
 }

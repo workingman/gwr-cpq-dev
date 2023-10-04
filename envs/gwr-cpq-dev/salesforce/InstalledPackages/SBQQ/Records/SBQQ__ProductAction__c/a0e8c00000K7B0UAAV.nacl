@@ -1,7 +1,0 @@
-salesforce.SBQQ__ProductAction__c a0e8c00000K7B0UAAV {
-  SBQQ__Product__c = salesforce.Product2.instance.01t8c00000LLIw4AAH
-  SBQQ__Required__c = false
-  SBQQ__Rule__c = salesforce.SBQQ__ProductRule__c.instance.a0j8c00001Hh2EeAAJ
-  SBQQ__Type__c = "Show"
-  _alias = "GWR August Product Rule PA-0000003"
-}

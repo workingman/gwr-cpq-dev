@@ -8,4 +8,5 @@ salesforce.ApexTrigger gwr_trigger1 {
       reference = salesforce.Account
     },
   ]
+  _alias = "gwr_trigger1"
 }
