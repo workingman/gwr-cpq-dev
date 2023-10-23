@@ -5,7 +5,7 @@ type salesforce.IncidentRelatedItem {
     referenceTo = [
       salesforce.Asset,
     ]
-    _required = true
+    
     label = "Asset ID"
     createable = true
     updateable = false
@@ -138,6 +138,10 @@ type salesforce.IncidentRelatedItem {
     createable = false
     updateable = false
     queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup Product2Id {
+    apiName = "IncidentRelatedItem.Product2Id"
     _hidden_value = true
   }
 }

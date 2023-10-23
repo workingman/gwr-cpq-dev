@@ -87,7 +87,7 @@ type salesforce.FlowOrchestrationWorkItem {
     apiName = "FlowOrchestrationWorkItem.StepInstanceId"
     relationshipName = "StepInstance"
     referenceTo = [
-      "FlowOrchestrationStepInstance",
+      salesforce.FlowOrchestrationStepInstance,
     ]
     label = "Orchestration Step Run ID"
     createable = false
@@ -129,6 +129,7 @@ type salesforce.FlowOrchestrationWorkItem {
       salesforce.AssetActionSource,
       salesforce.AssetRelationship,
       salesforce.AssetStatePeriod,
+      salesforce.AssociatedLocation,
       salesforce.AuthorizationForm,
       salesforce.AuthorizationFormConsent,
       salesforce.AuthorizationFormDataUse,
@@ -474,6 +475,12 @@ type salesforce.FlowOrchestrationWorkItem {
         default = false
       },
       {
+        fullName = "runtime_appointmentbooking__send_Invt"
+        isActive = true
+        label = "runtime_appointmentbooking__send_Invt"
+        default = false
+      },
+      {
         fullName = "runtime_commerce_oms__Cancel_Item"
         isActive = true
         label = "runtime_commerce_oms__Cancel_Item"
@@ -498,12 +505,6 @@ type salesforce.FlowOrchestrationWorkItem {
         default = false
       },
       {
-        fullName = "runtime_industries_epc__SimpleProduct"
-        isActive = true
-        label = "runtime_industries_epc__SimpleProduct"
-        default = false
-      },
-      {
         fullName = "runtime_industries_recurrence__Orch"
         isActive = true
         label = "runtime_industries_recurrence__Orch"
@@ -513,6 +514,12 @@ type salesforce.FlowOrchestrationWorkItem {
         fullName = "runtime_industries_recurrence__Schdlr"
         isActive = true
         label = "runtime_industries_recurrence__Schdlr"
+        default = false
+      },
+      {
+        fullName = "runtime_payments__PayNowWithProducts"
+        isActive = true
+        label = "runtime_payments__PayNowWithProducts"
         default = false
       },
       {
