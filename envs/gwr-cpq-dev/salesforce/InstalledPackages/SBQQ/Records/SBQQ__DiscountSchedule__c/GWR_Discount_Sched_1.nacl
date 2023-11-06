@@ -1,0 +1,15 @@
+salesforce.SBQQ__DiscountSchedule__c GWR_Discount_Sched_1@s {
+  SBQQ__AggregationScope__c = "Quote"
+  SBQQ__CrossOrders__c = false
+  SBQQ__CrossProducts__c = false
+  SBQQ__Description__c = "discount1"
+  SBQQ__DiscountUnit__c = "Percent"
+  SBQQ__IncludeBundledProducts__c = false
+  SBQQ__PriceScale__c = 2
+  SBQQ__QuoteLineQuantityField__c = "Quantity"
+  SBQQ__Type__c = "Range"
+  SBQQ__UsePriceForAmount__c = false
+  SBQQ__UserDefined__c = false
+  Name = "GWR Discount Sched 1"
+  _alias = "GWR Discount Sched 1"
+}
