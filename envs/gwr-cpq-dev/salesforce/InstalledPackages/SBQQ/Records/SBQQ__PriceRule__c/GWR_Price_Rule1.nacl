@@ -8,3 +8,13 @@ salesforce.SBQQ__PriceRule__c GWR_Price_Rule1@s {
   Name = "GWR Price Rule1"
   _alias = "GWR Price Rule1"
 }
+salesforce.SBQQ__PriceRule__c a4hq0000000gg3fAAA {
+  SBQQ__Active__c = true
+  SBQQ__AdvancedCondition__c = "1 AND (2 OR 3) AND (((4 and 8 ) AND 6) OR ((5 AND 9) AND 7))"
+  SBQQ__ConditionsMet__c = "Custom"
+  SBQQ__EvaluationEvent__c = "After Calculate"
+  SBQQ__EvaluationOrder__c = 5
+  SBQQ__TargetObject__c = "Calculator"
+  Name = "QL: Set RegPrice after NPO or Regional Discount"
+  _alias = "QL: Set RegPrice after NPO or Regional Discount"
+}
